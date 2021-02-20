@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- This is the starting form for example 5-5 -->
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<title>Public Forum</title>
+<style>
+th {
+ text-align: left;
+}
+</style>
+</head>
+<body>
+<h1>Public Forum </h1>
+<form action="scripts/data_handler.php" method="post">
+<table>
+<tr><th>Name:</th><td><input type="text" name="user" placeholder="Your name..." /> </td></tr>
+<tr><th>Comment:</th><td><input  class="commentfield" type="text" name="comment" placeholder="Your comment..." /> </td></tr>
+<tr><td></td><td><input class="submitbutton" type="submit" name="submit" value="Submit" /></td></tr>
+</table>
+</br>
+</form>
+<hr>
+<form action="scripts/data_handler.php" method="post">
+<table>
+<tr><th>Search</th><td><input type="text"  class="searchfield" name="search" placeholder="Search phrase..."></td>
+<td><input type="submit" name="search_text" value="Search" /></td></tr>
+</table>
+</form>
+</bodY>
+</html>
